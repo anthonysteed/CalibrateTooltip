@@ -11,6 +11,8 @@ The announcement of [Logitech's VR Ink Pilot Edition](https://www.logitech.com/e
 
 The use is very straightforward. Make a stylus of your choosing and rigid attach it to a VR controller. I taped a mechanical pencil to a Vive Pro controller. Run the Unity project, hold the tip stationary (e.g. presss it firmly into a spongy mouse mat) and rotate the the wand around the tip. Click the trigger four or more times in different rotations. A small green ball will appear at the tip. If you keep the tip in the same position and rotate some more, the green ball should stay stationary.
 
+![Very precise controller](controller.png)
+
 ## Maths
 
 The maths of this is straightforward. The tooltip is stationary but in an unknown location. The translation offset between VR controller coordinates and the tooltip is fixed but unknown. The translation and rotations of the VR controller are all known. This makes a simple relationship that can be solved with three or more example rotations. I use four or more in the code as this gives some robustness to jitter. Markdown doesn't lend itself to maths, but you can [see the equation to solve on p17 (Section 4.3) of Tuceryan et al. 1995 (freely available on ResearchGate)](
