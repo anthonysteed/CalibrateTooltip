@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.tooltip.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "E:\\anthony\\dev\\tooltip\\tooltip_upgrade\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "tooltip [Testing]"
+        }
+      }
+    }
+  ]
+}
