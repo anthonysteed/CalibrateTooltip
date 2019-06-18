@@ -7,11 +7,11 @@ The repository includes the [MathNet.Numerics DLL](https://numerics.mathdotnet.c
 
 ## Instructions
 
-The announcement of [Logitech's VR Ink Pilot Edition](https://www.logitech.com/en-roeu/promo/vr-ink.html) prompted me to dig out this piece of Unity code for calibrating the tip of a tool attached to the tracker. This is an example of a piece of code that I have written at least five times in different VR toolkits over the years. We often end up using it when constructing demos that have any sort of mixed-reality component where a VR object needs aligning with a real object, or we need to get precise input on a controller or you want to find the tip of the physical sword prop that you embedded your controller into 
+The announcement of [Logitech's VR Ink Pilot Edition](https://www.logitech.com/en-roeu/promo/vr-ink.html) prompted me to dig out this piece of Unity code for calibrating the tip of a tool attached to the tracker. This is an example of a piece of code that I have written at least five times in different VR toolkits over the years. We often end up using it when constructing demos that have any sort of mixed-reality component where a VR object needs aligning with a real object, or we need to get precise input on a controller or we want to find the tip of the physical sword prop that we embedded the controller into.
 
-The use is very straightforward. Make a stylus of your choosing and rigid attach it to a VR controller. I taped a mechanical pencil to a Vive Pro controller. Run the Unity project, hold the tip stationary (e.g. presss it firmly into a spongy mouse mat) and rotate the the wand around the tip. Click the trigger four or more times in different rotations. A small green ball will appear at the tip. If you keep the tip in the same position and rotate some more, the green ball should stay stationary.
+The use is very straightforward. Make a stylus of your choosing and rigidly attach it to a VR controller. I taped a mechanical pencil to a Vive Pro controller. Run the Unity project, hold the tip stationary (e.g. press it firmly into a spongy mouse mat) and rotate the wand around the tip. Click the trigger four or more times in different rotations. A small green ball will appear at the tip. If you keep the tip in the same position and rotate some more, the green ball should stay stationary.
 
-![Very precise controller](controller.png)
+![Very precise stylus](controller.png)
 
 ## Maths
 
